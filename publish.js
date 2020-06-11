@@ -4,11 +4,11 @@ const shell = require("shelljs");
 const OSS = require('ali-oss');
 
 let client = new OSS({
-  region: 'oss-cn-beijing',
+  region: '',
   //云账号AccessKey有所有API访问权限，建议遵循阿里云安全最佳实践，部署在服务端使用RAM子账号或STS，部署在客户端使用STS。
-  accessKeyId: 'LTAI4FmS3WJZeRtBdVFAX69c',
-  accessKeySecret: 'Nnj7VFyZFn1hKhFr4LhkFf2NSmiIpe',
-  bucket: 'oss-publish-test'
+  accessKeyId: '',
+  accessKeySecret: '',
+  bucket: ''
 });
 
 const put = fileName => {
